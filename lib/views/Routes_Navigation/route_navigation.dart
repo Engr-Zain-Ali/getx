@@ -20,22 +20,25 @@ class Route_Navigation extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           ElevatedButton(onPressed: (){
-            Get.to(
-              Home(),
-              //full screen diolog
-              fullscreenDialog: true,
-              //animation
-              transition: Transition.zoom,
-              duration: Duration(seconds: 1),
-              curve: Curves.bounceInOut,
-              //no option to previous screen
-              // Get.off(Home())
-              //previous screen and youtes not apply,
-              // Get.offAll(Home())
+           // if we use the routes so i am use get.toNamed
+           Get.toNamed('/5',);
+            // Get.to(
+            //   Home(),
+            //   //full screen diolog
+            //   fullscreenDialog: true,
+            //   //animation
+            //   transition: Transition.zoom,
+            //   duration: Duration(seconds: 1),
+            //   curve: Curves.bounceInOut,
+            //   //no option to previous screen
+            //   // Get.off(Home())
+            //   //previous screen and youtes not apply,
+            //   // Get.offAll(Home())
+            //
+            //
+            //
+            // );
 
-
-
-            );
 
 
           }, child:Center(child: Text("Go to Home Screen")))
