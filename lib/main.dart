@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
+import 'package:getx/views/Bottom_sheet.dart';
 import 'package:getx/views/alert_diolog.dart';
 import 'package:getx/views/snackbar_getx.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:Alert_Diolog(),
+      home:Bottom_Sheet(),
     );
   }
 }
