@@ -6,6 +6,7 @@ import 'package:getx/views/Routes_Navigation/home.dart';
 import 'package:getx/views/Routes_Navigation/route_navigation.dart';
 import 'package:getx/views/alert_diolog.dart';
 import 'package:getx/views/snackbar_getx.dart';
+import 'package:getx/views/width_height_responciveness.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,11 +25,11 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:Route_Navigation(),
-      getPages: [
-        GetPage(name: "/5", page:()=>Home()),
-        GetPage(name: "/1", page:()=>Route_Navigation()),
-      ],
+      home:Responsiveness(),
+      // getPages: [
+      //   GetPage(name: "/5", page:()=>Home()),
+      //   GetPage(name: "/1", page:()=>Route_Navigation()),
+      // ],
 
 
     );
