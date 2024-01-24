@@ -6,6 +6,7 @@ import 'package:getx/views/Routes_Navigation/home.dart';
 import 'package:getx/views/Routes_Navigation/route_navigation.dart';
 import 'package:getx/views/alert_diolog.dart';
 import 'package:getx/views/reactive_statemanagement/counter_application.dart';
+import 'package:getx/views/slider_container.dart';
 import 'package:getx/views/snackbar_getx.dart';
 import 'package:getx/views/width_height_responciveness.dart';
 
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:Counter(),
+      home:SliderContainer(),
       // getPages: [
       //   GetPage(name: "/5", page:()=>Home()),
       //   GetPage(name: "/1", page:()=>Route_Navigation()),
